@@ -1,0 +1,18 @@
+interface;
+
+define behavior for ZR005_I_ACTIVOS alias Assets
+{
+  use create;
+  use update;
+  use delete;
+
+  use association _MaintSchedule { create; }
+}
+
+define behavior for ZR005_I_MAINT_ACTIVOS alias MaintSchedule
+{
+  use update;
+  use delete;
+
+  use association _Asset;
+}

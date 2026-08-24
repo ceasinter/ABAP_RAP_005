@@ -1,0 +1,29 @@
+@Metadata.layer: #CORE
+annotate entity ZR005_C_MAINT_ACTIVOS with
+{
+  @UI.hidden: true
+  MaintUUID;
+  @UI.hidden: true
+  AssetUUID;
+  @EndUserText.label: 'Maintenance Type'
+  MaintType;
+  @EndUserText.label: 'Description'
+  Description;
+  @EndUserText.label: 'Schedule Date'
+  ScheduleDate;
+  @EndUserText.label: 'Completed Date'
+  CompletedDate;
+  @EndUserText.label: 'Technician'
+  Technician;
+  @EndUserText.label: 'Maintenance Status'
+  MaintStatus;
+  @EndUserText.label: 'Cost'
+  Cost;
+  @EndUserText.label: 'Currency'
+  CurrencyCode;
+  @EndUserText.label: 'Notes'
+  Notes;
+  @UI.hidden: true
+  LocalLastChangedAt;
+
+}

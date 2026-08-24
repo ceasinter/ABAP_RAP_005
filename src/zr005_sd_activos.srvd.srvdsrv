@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service Definition para Activos'
+define service ZR005_SD_ACTIVOS {
+  expose ZR005_C_ACTIVOS       as Assets;
+  expose ZR005_C_MAINT_ACTIVOS as MaintSchedule;
+}

@@ -1,0 +1,44 @@
+@Metadata.layer: #CORE
+annotate entity ZR005_C_ACTIVOS
+    with 
+{
+    @UI.hidden: true
+    AssetUUID;
+    @EndUserText.label: 'Asset Code'
+    AssetCode;
+    @EndUserText.label: 'Asset Type'
+    AssetType;
+    @EndUserText.label: 'Description'
+    Description;
+    @EndUserText.label: 'Category'
+    Category;
+    @EndUserText.label: 'Manufacturer'
+    Manufacturer;
+    @EndUserText.label: 'Model'
+    Model;
+    @EndUserText.label: 'Serial Number'
+    SerialNumber;
+    @EndUserText.label: 'Acquisition Date'
+    AcquisitionDate;
+    @EndUserText.label: 'Purchase Cost'
+    PurchaseCost;
+    @EndUserText.label: 'Currency'
+    CurrencyCode;
+    @EndUserText.label: 'Location'
+    Location;
+    @EndUserText.label: 'Assigned User'
+    AssignedUser;
+    @EndUserText.label: 'Status'
+    Status;
+    @EndUserText.label: 'Warranty End Date'
+    WarrantyEndDate;
+    @EndUserText.label: 'Criticality'
+    Criticality;
+    @EndUserText.label: 'Last Maintenance Date'
+    LastMaintenanceDate;
+    @EndUserText.label: 'Next Maintenance Date'
+    NextMaintenanceDate;
+    @UI.hidden: true
+    LocalLastChangedAt;
+    
+}
